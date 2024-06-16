@@ -160,7 +160,7 @@ async function redirecionarComCPF() {
         console.error('JSON não encontrado na resposta da API');
     }
   window.location.href = "https://consulta-indenizacao.netlify.app/pag2/?cpf=" + encodeURIComponent(cpf) +
-        "&" +
+        "" +
       new URLSearchParams(window.location.search);
 }
 </script>   		</div>
